@@ -15,7 +15,9 @@ const Cards = () => {
             }
             alt="sofa"
           />
-          <h3 className="px-2 py-1 text-xl tracking-tight">chair</h3>
+          <h3 className="px-2 py-1 text-xl tracking-tight">
+            LITTLE ARMCHAIR SHEEPSKIN
+          </h3>
           <h2 className="px-2 py-1 text-xl font-bold">$986</h2>
         </div>
       </div>
