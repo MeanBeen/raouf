@@ -1,11 +1,14 @@
 import { cardData } from "@/utils/constant";
 import Image from "next/image";
 
-const Cards = () => {
+const Card = () => {
   return (
-    <div className="grid w-full grid-cols-1 gap-2 lg:grid-cols-4">
+    <div className="flex w-full gap-2">
       {cardData.map((data) => (
-        <div key={data.id} className="border-2 px-5 py-5">
+        <div
+          key={data.id}
+          className="max-w-[16rem] flex-shrink-0 border-2 px-5 py-5"
+        >
           <Image
             className="w-full"
             width={100}
@@ -21,4 +24,4 @@ const Cards = () => {
   );
 };
 
-export default Cards;
+export default Card;
